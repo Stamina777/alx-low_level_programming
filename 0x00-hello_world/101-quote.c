@@ -3,12 +3,13 @@
 
 
 /**
- * main - Prints output
- * Return:1(Success)
+ * main - prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
+ * followed by a new line, to standard error.
+ * Return: 1(Success)
  */
 
 int main(void)
 {
-	fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
