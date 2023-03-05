@@ -5,15 +5,18 @@
  *
  * @i: function parameter
  *
- * Return: value of k
+ * Return: value of the last digit number
  */
 
 int print_last_digit(int i)
 {
-	int k;
+	int last;
 
-	k = i % 10;
-	if (k < 0)
-		k = -k;
-	return (k);
+	last = i % 10;
+	if (last < 0)
+	{
+		last = last * -1;
+	}
+	_putchar(last + '0');
+	return (last);
 }
