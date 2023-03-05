@@ -3,6 +3,8 @@
 /**
  * _abs - checks for absolute value
  *
+ * @a: parameter to be checked
+ *
  *Return: always a
  */
 
