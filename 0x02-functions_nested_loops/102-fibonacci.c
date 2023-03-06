@@ -8,13 +8,23 @@
 int main(void)
 
 {
-	int i, sum = 0;
+	int i = 0;
+	long j = 1, k = 2;
 
-	for (i = 0 ; i < 1024 ; i++)
+	while (i < 50)
 	{
-		if ((i % 3) == 0 || (i % 5) == 0)
-			sum += i;
+		if (i == 0)
+			printf("%1d, j);
+		else if (i == 1)
+			ptintf(", %1d", k);
+		else
+		{
+			k += j;
+			j = k -j;
+		printf(", %ld", k);
+		}
+	++i;
 	}
-		printf("%d\n", sum);
+	printf("\n");
 	return (0);
 }
