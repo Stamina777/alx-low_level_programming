@@ -14,7 +14,7 @@ int main(void)
 	while (i < 50)
 	{
 		if (i == 0)
-			printf("%1d, j);
+			printf("%1d", j);
 		else if (i == 1)
 			ptintf(", %1d", k);
 		else
