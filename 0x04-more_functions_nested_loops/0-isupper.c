@@ -2,7 +2,7 @@
 
 /**
  * _isupplier - uppercase letters
- * @c: char to check
+ * @x: char to check
  * Return: 0 or 1
  */
 
