@@ -2,24 +2,24 @@
 
 /**
  * print_most_numbers - print numbers except 2 and 4
- * 
+ * description: prints the number excluding 2 and 4
  * Return: prints numbers 0 t0 9 except 2 and 4
  */
 
 void print_most_numbers(void)
 
 {
-	char c;
+	int x = 0;
 
-	for (c = 0 ; c <= 9 ; c++)
+	for (; x <= 9 ; x++)
 	{
-	if (c == 2 || c == 4)
+	if (x == 2 || x == 4)
 	{
 	continue;
 	}
 	else
 	{
-	_putchar(c + '0');
+	_putchar(x + '0');
 	}
 	}
 	_putchar('\n');
