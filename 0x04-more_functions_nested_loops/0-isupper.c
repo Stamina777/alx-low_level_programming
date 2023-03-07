@@ -1,18 +1,16 @@
 #include "main.h"
 
 /**
- * _isupplier - uppercase letters
- * @x: char to check
- * Return: 0 or 1
+ * _isdigit - checks if a letter is uppercase
+ * @x: the number to be checked
+ * Return: 1 or 0
  */
 
-int _isupper(int x)
-
+int _isdigit(int x)
 {
-	int x;
-
-	if (x >= 'A' && x <= 'Z')
+	if (x >= 65 && x <= 90)
+	{
 	return (1);
-	else
+	}
 	return (0);
 }
